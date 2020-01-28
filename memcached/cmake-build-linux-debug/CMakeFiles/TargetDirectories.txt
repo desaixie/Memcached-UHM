@@ -1,0 +1,3 @@
+/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/CMakeFiles/memcached.dir
+/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/CMakeFiles/edit_cache.dir

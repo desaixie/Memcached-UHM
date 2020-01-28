@@ -1,0 +1,46 @@
+"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\zong\Lehigh\Study\e2019Fall\281\ubuntu\memcached-uhm
+-- The CXX compiler identification is GNU 6.3.0
+-- The CUDA compiler identification is unknown
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin/nvcc.exe
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin/nvcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.2.1/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCUDACompiler.cmake:46 (message):
+  The CUDA compiler
+
+    "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin/nvcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/zong/Lehigh/Study/e2019Fall/281/ubuntu/memcached-uhm/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_ffc81/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ffc81.dir\build.make CMakeFiles/cmTC_ffc81.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/zong/Lehigh/Study/e2019Fall/281/ubuntu/memcached-uhm/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building CUDA object CMakeFiles/cmTC_ffc81.dir/main.cu.obj
+    C:\PROGRA~1\NVIDIA~2\CUDA\v10.0\bin\nvcc.exe     -x cu -c C:\zong\Lehigh\Study\e2019Fall\281\ubuntu\memcached-uhm\cmake-build-debug\CMakeFiles\CMakeTmp\main.cu -o CMakeFiles\cmTC_ffc81.dir\main.cu.obj
+    C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\crtdefs.h(10): fatal error C1083: Cannot open include file: 'corecrt.h': No such file or directory
+    main.cu
+    CMakeFiles\cmTC_ffc81.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_ffc81.dir/main.cu.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_ffc81.dir/main.cu.obj] Error 2
+    mingw32-make.exe[1]: Leaving directory 'C:/zong/Lehigh/Study/e2019Fall/281/ubuntu/memcached-uhm/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_ffc81/fast' failed
+    mingw32-make.exe: *** [cmTC_ffc81/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/zong/Lehigh/Study/e2019Fall/281/ubuntu/memcached-uhm/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/zong/Lehigh/Study/e2019Fall/281/ubuntu/memcached-uhm/cmake-build-debug/CMakeFiles/CMakeError.log".

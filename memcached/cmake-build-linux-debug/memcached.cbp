@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="memcached"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memcached">
+				<Option output="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/memcached" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.G7nQZ5mSbC/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 memcached"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memcached/fast">
+				<Option output="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/memcached" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.G7nQZ5mSbC/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 memcached/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/tmp/tmp.G7nQZ5mSbC/cmake-build-linux-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/assoc.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/assoc.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/authfile.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/authfile.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/bipbuffer.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/bipbuffer.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/cache.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/cache.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/crawler.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/crawler.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/crc32c.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/crc32c.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/daemon.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/extstore.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/extstore.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/freebsd_priv.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/globals.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/hash.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/hash.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/items.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/items.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/itoa_ljust.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/itoa_ljust.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/jenkins_hash.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/jenkins_hash.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/linux_priv.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/logger.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/logger.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/memcached.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/memcached.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/murmur3_hash.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/murmur3_hash.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/openbsd_priv.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/protocol_binary.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/restart.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/restart.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/sasl_defs.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/sasl_defs.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/sizes.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slab_automove.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slab_automove.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slab_automove_extstore.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slab_automove_extstore.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slabs.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/slabs.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/solaris_priv.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/stats.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/stats.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/storage.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/storage.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/testapp.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/thread.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/timedrun.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/tls.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/tls.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/trace.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/util.c">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/util.h">
+			<Option target="memcached"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.G7nQZ5mSbC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
